@@ -1,0 +1,124 @@
+{
+  "experiences": [
+    {
+      "id": "stanley_seawall_partial",
+      "name": "Stanley Park Seawall (Partial Loop)",
+      "time": ["1_2_hours", "half_day"],
+      "energy": ["medium"],
+      "weather": ["clear", "mixed"],
+      "crowd": "medium",
+      "regret_risk": "low",
+      "regret_message": "Don’t attempt the entire seawall unless you have a full half-day. Don’t start late afternoon expecting a relaxed pace."
+    },
+    {
+      "id": "stanley_park_interior",
+      "name": "Stanley Park Interior (Quiet Walks)",
+      "time": ["1_2_hours"],
+      "energy": ["low", "medium"],
+      "weather": ["clear", "mixed"],
+      "crowd": "low",
+      "regret_risk": "very_low",
+      "regret_message": "Don’t skip interior trails if crowds are high elsewhere. Don’t expect ocean views — this is about calm and greenery."
+    },
+    {
+      "id": "granville_island_off_peak",
+      "name": "Granville Island (Off-Peak)",
+      "time": ["1_2_hours"],
+      "energy": ["low"],
+      "weather": ["clear", "rain", "mixed"],
+      "crowd": "high",
+      "regret_risk": "medium",
+      "regret_message": "Don’t go between 11:30am–3:30pm on weekends. Don’t expect a quiet experience."
+    },
+    {
+      "id": "vancouver_art_gallery",
+      "name": "Vancouver Art Gallery",
+      "time": ["1_2_hours"],
+      "energy": ["low"],
+      "weather": ["rain"],
+      "crowd": "low",
+      "regret_risk": "low",
+      "regret_message": "Don’t visit on a clear sunny day unless you genuinely want indoor time. Don’t expect large permanent exhibits."
+    },
+    {
+      "id": "museum_of_anthropology",
+      "name": "Museum of Anthropology (MOA)",
+      "time": ["half_day"],
+      "energy": ["low", "medium"],
+      "weather": ["rain", "mixed"],
+      "crowd": "low",
+      "regret_risk": "very_low",
+      "regret_message": "Don’t schedule less than 2–3 hours. Don’t pair with another major activity the same day."
+    },
+    {
+      "id": "capilano_bridge",
+      "name": "Capilano Suspension Bridge",
+      "time": ["half_day"],
+      "energy": ["medium"],
+      "weather": ["clear"],
+      "crowd": "very_high",
+      "regret_risk": "high",
+      "regret_message": "Don’t go midday in peak season. Don’t expect solitude or a long experience."
+    },
+    {
+      "id": "lynn_canyon",
+      "name": "Lynn Canyon (Suspension Bridge + Trails)",
+      "time": ["half_day"],
+      "energy": ["medium", "high"],
+      "weather": ["clear", "mixed"],
+      "crowd": "medium",
+      "regret_risk": "very_low",
+      "regret_message": "Don’t wear city shoes. Don’t expect a “quick stop.”"
+    },
+    {
+      "id": "grouse_mountain",
+      "name": "Grouse Mountain (Skyride + Summit)",
+      "time": ["half_day"],
+      "energy": ["medium", "high"],
+      "weather": ["clear"],
+      "crowd": "high",
+      "regret_risk": "medium",
+      "regret_message": "Don’t go if visibility is uncertain. Don’t underestimate crowd levels in summer."
+    },
+    {
+      "id": "grouse_grind",
+      "name": "Grouse Grind (Hike)",
+      "time": ["half_day"],
+      "energy": ["high"],
+      "weather": ["clear"],
+      "crowd": "medium",
+      "regret_risk": "high",
+      "regret_message": "Don’t attempt without water or preparation. Not for families or low energy days."
+    },
+    {
+      "id": "false_creek_ferry",
+      "name": "False Creek Ferry + Seawall",
+      "time": ["1_2_hours"],
+      "energy": ["low"],
+      "weather": ["clear", "mixed"],
+      "crowd": "low",
+      "regret_risk": "very_low",
+      "regret_message": "Don’t treat this as a main attraction. Don’t rush it — it’s about pacing."
+    },
+    {
+      "id": "queen_elizabeth_park",
+      "name": "Queen Elizabeth Park",
+      "time": ["1_2_hours"],
+      "energy": ["low", "medium"],
+      "weather": ["clear", "mixed"],
+      "crowd": "low",
+      "regret_risk": "very_low",
+      "regret_message": "Don’t skip the viewpoint. Prefer morning or late afternoon for best light."
+    },
+    {
+      "id": "north_shore_drive",
+      "name": "North Shore Scenic Drive + Stops",
+      "time": ["half_day"],
+      "energy": ["low"],
+      "weather": ["clear", "mixed"],
+      "crowd": "low",
+      "regret_risk": "low",
+      "regret_message": "Don’t attempt during rush hour. Don’t overpack the itinerary."
+    }
+  ]
+}

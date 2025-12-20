@@ -1,124 +1,114 @@
 {
   "experiences": [
     {
-      "id": "stanley_seawall_partial",
-      "name": "Stanley Park Seawall (Partial Loop)",
-      "time": ["1_2_hours", "half_day"],
-      "energy": ["medium"],
-      "weather": ["clear", "mixed"],
-      "crowd": "medium",
-      "regret_risk": "low",
-      "regret_message": "Don’t attempt the entire seawall unless you have a full half-day. Don’t start late afternoon expecting a relaxed pace."
-    },
-    {
-      "id": "stanley_park_interior",
-      "name": "Stanley Park Interior (Quiet Walks)",
-      "time": ["1_2_hours"],
-      "energy": ["low", "medium"],
-      "weather": ["clear", "mixed"],
-      "crowd": "low",
-      "regret_risk": "very_low",
-      "regret_message": "Don’t skip interior trails if crowds are high elsewhere. Don’t expect ocean views — this is about calm and greenery."
-    },
-    {
-      "id": "granville_island_off_peak",
-      "name": "Granville Island (Off-Peak)",
-      "time": ["1_2_hours"],
-      "energy": ["low"],
+      "id": "stanley_park_seawall",
+      "name": "Stanley Park Seawall (Full Loop)",
+      "time": ["1_2_hours", "half_day", "full_day"],
+      "energy": ["low", "medium", "high"],
       "weather": ["clear", "rain", "mixed"],
       "crowd": "high",
-      "regret_risk": "medium",
-      "regret_message": "Don’t go between 11:30am–3:30pm on weekends. Don’t expect a quiet experience."
+      "regret_risk": "low",
+      "regret_message": "If it rains, paths can be slippery. Full loop takes a full day, so bring water and snacks."
+    },
+    {
+      "id": "granville_island",
+      "name": "Granville Island & Public Market",
+      "time": ["1_2_hours", "half_day", "full_day"],
+      "energy": ["low", "medium"],
+      "weather": ["clear", "rain", "mixed"],
+      "crowd": "medium",
+      "regret_risk": "very_low",
+      "regret_message": "Indoor areas make it safe during rain. Avoid weekends if you dislike crowds."
     },
     {
       "id": "vancouver_art_gallery",
       "name": "Vancouver Art Gallery",
-      "time": ["1_2_hours"],
-      "energy": ["low"],
-      "weather": ["rain"],
-      "crowd": "low",
-      "regret_risk": "low",
-      "regret_message": "Don’t visit on a clear sunny day unless you genuinely want indoor time. Don’t expect large permanent exhibits."
+      "time": ["1_2_hours", "half_day"],
+      "energy": ["low", "medium"],
+      "weather": ["clear", "rain", "mixed"],
+      "crowd": "medium",
+      "regret_risk": "very_low",
+      "regret_message": "Great for rainy days. Skip if you’re short on time."
     },
     {
       "id": "museum_of_anthropology",
-      "name": "Museum of Anthropology (MOA)",
-      "time": ["half_day"],
+      "name": "Museum of Anthropology",
+      "time": ["half_day", "full_day"],
       "energy": ["low", "medium"],
-      "weather": ["rain", "mixed"],
-      "crowd": "low",
-      "regret_risk": "very_low",
-      "regret_message": "Don’t schedule less than 2–3 hours. Don’t pair with another major activity the same day."
+      "weather": ["clear", "rain", "mixed"],
+      "crowd": "medium",
+      "regret_risk": "low",
+      "regret_message": "Allows full-day exploration. Rainy day friendly."
     },
     {
       "id": "capilano_bridge",
-      "name": "Capilano Suspension Bridge",
-      "time": ["half_day"],
-      "energy": ["medium"],
-      "weather": ["clear"],
-      "crowd": "very_high",
-      "regret_risk": "high",
-      "regret_message": "Don’t go midday in peak season. Don’t expect solitude or a long experience."
+      "name": "Capilano Suspension Bridge & Park",
+      "time": ["half_day", "full_day"],
+      "energy": ["medium", "high"],
+      "weather": ["clear", "mixed"],
+      "crowd": "high",
+      "regret_risk": "medium",
+      "regret_message": "Crowded on weekends. High-energy if you take trails; check visibility in fog."
     },
     {
       "id": "lynn_canyon",
-      "name": "Lynn Canyon (Suspension Bridge + Trails)",
-      "time": ["half_day"],
+      "name": "Lynn Canyon Park Hike",
+      "time": ["half_day", "full_day"],
       "energy": ["medium", "high"],
       "weather": ["clear", "mixed"],
-      "crowd": "medium",
-      "regret_risk": "very_low",
-      "regret_message": "Don’t wear city shoes. Don’t expect a “quick stop.”"
+      "crowd": "low",
+      "regret_risk": "medium",
+      "regret_message": "Slippery in rain. Full-day option for extended hike."
     },
     {
       "id": "grouse_mountain",
-      "name": "Grouse Mountain (Skyride + Summit)",
-      "time": ["half_day"],
+      "name": "Grouse Mountain Skyride & Summit",
+      "time": ["half_day", "full_day"],
       "energy": ["medium", "high"],
-      "weather": ["clear"],
+      "weather": ["clear", "mixed"],
       "crowd": "high",
       "regret_risk": "medium",
-      "regret_message": "Don’t go if visibility is uncertain. Don’t underestimate crowd levels in summer."
+      "regret_message": "Check visibility; summit can be cold/windy. Full-day recommended if hiking trails included."
     },
     {
       "id": "grouse_grind",
-      "name": "Grouse Grind (Hike)",
-      "time": ["half_day"],
+      "name": "Grouse Grind Hike",
+      "time": ["half_day", "full_day"],
       "energy": ["high"],
-      "weather": ["clear"],
-      "crowd": "medium",
+      "weather": ["clear", "mixed"],
+      "crowd": "high",
       "regret_risk": "high",
-      "regret_message": "Don’t attempt without water or preparation. Not for families or low energy days."
+      "regret_message": "Physically demanding. Avoid in wet conditions. Full-day includes summit rest."
     },
     {
       "id": "false_creek_ferry",
-      "name": "False Creek Ferry + Seawall",
-      "time": ["1_2_hours"],
-      "energy": ["low"],
-      "weather": ["clear", "mixed"],
-      "crowd": "low",
+      "name": "False Creek Ferry & Waterfront Walk",
+      "time": ["1_2_hours", "half_day", "full_day"],
+      "energy": ["low", "medium"],
+      "weather": ["clear", "rain", "mixed"],
+      "crowd": "medium",
       "regret_risk": "very_low",
-      "regret_message": "Don’t treat this as a main attraction. Don’t rush it — it’s about pacing."
+      "regret_message": "Relaxing option. Rain or shine. Full-day allows multiple stops."
     },
     {
       "id": "queen_elizabeth_park",
       "name": "Queen Elizabeth Park",
-      "time": ["1_2_hours"],
+      "time": ["1_2_hours", "half_day", "full_day"],
       "energy": ["low", "medium"],
-      "weather": ["clear", "mixed"],
+      "weather": ["clear", "rain", "mixed"],
       "crowd": "low",
       "regret_risk": "very_low",
-      "regret_message": "Don’t skip the viewpoint. Prefer morning or late afternoon for best light."
+      "regret_message": "Great gardens and viewpoints. Full-day allows leisure exploration."
     },
     {
       "id": "north_shore_drive",
-      "name": "North Shore Scenic Drive + Stops",
-      "time": ["half_day"],
-      "energy": ["low"],
+      "name": "North Shore Scenic Drive",
+      "time": ["half_day", "full_day"],
+      "energy": ["low", "medium"],
       "weather": ["clear", "mixed"],
       "crowd": "low",
       "regret_risk": "low",
-      "regret_message": "Don’t attempt during rush hour. Don’t overpack the itinerary."
+      "regret_message": "Driving route with optional short hikes. Full-day lets you explore multiple viewpoints."
     }
   ]
 }
